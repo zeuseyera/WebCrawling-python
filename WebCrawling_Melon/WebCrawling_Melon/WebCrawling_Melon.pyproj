@@ -3,15 +3,18 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>ece232d4-b052-4f8a-8e6e-4e8a676434bf</ProjectGuid>
+    <ProjectGuid>3f8d58ea-24fa-407e-af5b-f4fb0078196e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Code_SilHeom.py</StartupFile>
+    <StartupFile>WebCrawling_Melon.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Code_SilHeom</Name>
-    <RootNamespace>Code_SilHeom</RootNamespace>
+    <Name>WebCrawling_Melon</Name>
+    <RootNamespace>WebCrawling_Melon</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <InterpreterId>{3f657ec1-694e-4335-b59d-f4f470631a71}</InterpreterId>
+    <InterpreterVersion>3.5</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +25,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Code_SilHeom.py" />
+    <Compile Include="WebCrawling_Melon.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{3f657ec1-694e-4335-b59d-f4f470631a71}\3.5" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
